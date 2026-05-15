@@ -1,0 +1,35 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-label,
+.message-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.textarea,
+.email-input {
+  max-width: 360px;
+}
+
+.email-input {
+  height: 34px;
+}
+
+.textarea {
+  resize: none;
+  margin-bottom: 16px;
+}
+
+.submit-btn {
+  border-radius: 8px;
+  width: 95px;
+  padding: 8px 16px;
+  border-style: none;
+  background-color: #4e75ff;
+  color: #fff;
+}
